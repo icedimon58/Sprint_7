@@ -1,7 +1,8 @@
 import json
 import requests
 import pytest
-from data import HOST, generate_random_string, TEST_DATA_1, COURIER_URL
+from data import HOST, TEST_DATA_1, COURIER_URL
+from helpers import generate_random_string
 
 
 @pytest.fixture

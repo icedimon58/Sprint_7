@@ -1,7 +1,7 @@
 import allure
 import requests
 
-from data import HOST,COURIER_URL
+from data import HOST, COURIER_URL
 
 
 class TestCourierLogin:

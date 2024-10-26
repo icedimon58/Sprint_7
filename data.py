@@ -1,6 +1,3 @@
-import random
-import string
-
 HOST = 'https://qa-scooter.praktikum-services.ru'
 COURIER_URL = '/api/v1/courier'
 ORDERS_URL = '/api/v1/orders'
@@ -51,7 +48,3 @@ TEST_DATA_4 = {
 }
 
 
-def generate_random_string(length):
-    letters = string.ascii_lowercase
-    random_string = ''.join(random.choice(letters) for i in range(length))
-    return random_string

@@ -1,6 +1,7 @@
 import allure
 import requests
-from data import HOST, generate_random_string,COURIER_URL
+from data import HOST, COURIER_URL
+from helpers import generate_random_string
 
 
 class TestCourierCreate:

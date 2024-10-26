@@ -1,6 +1,7 @@
 import allure
 import requests
-from data import HOST,COURIER_URL, generate_random_string
+from data import HOST,COURIER_URL
+from helpers import generate_random_string
 
 
 class TestCourierDelete:
